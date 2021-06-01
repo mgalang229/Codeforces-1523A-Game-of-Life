@@ -11,7 +11,7 @@ int main() {
 		int n, m;
 		string s;
 		cin >> n >> m >> s;
-		// create 'index' vector to store the mark the valid indices
+		// create 'index' vector to store the valid indices
 		vector<int> index;
 		for (int i = 0; i < min(n, m); i++) {
 			for (int j = 0; j < n; j++) {
